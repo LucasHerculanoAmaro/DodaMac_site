@@ -11,3 +11,22 @@ body{
     background-color: #080000 !important;
     height: 100%;
 }
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+/*Fundo que corre*/
+::-webkit-scrollbar {
+    width: 10px;
+    background: var(--body); /*black*/
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+}
+
+/*Linha que desce*/
+::-webkit-scrollbar-thumb {
+    background: var(--body); /*#FD801*/
+    border-radius: 15px;
+}

@@ -1,0 +1,39 @@
+.container{
+    background-color: #d2d2d2;
+
+    width: 900px;
+    height: 100%;
+
+    margin-top: -50px;
+    
+    border-radius: 50px;
+    border-bottom: 10px solid #800909;
+}
+
+.margem-menu{
+    height: 100px;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.nav-item{
+    margin-top: auto;
+}
+
+.navbar-brand {
+    margin: 40px -100px 0px 25px;
+}
+
+.nav-link{
+    color: #800909;
+    font: bold;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.nav-item{
+    margin: 0px 0px 0p 0px;
+}
