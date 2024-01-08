@@ -1,0 +1,9 @@
+.container{
+    background-color: #d2d2d2;
+    max-width: 1100px;
+}
+
+.def-start{
+    justify-content: center;
+    align-items: center;
+}

@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+/*Resetando algumas alterações globais*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nova Square', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #080000 !important;
+}
