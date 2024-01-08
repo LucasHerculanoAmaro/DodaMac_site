@@ -1,0 +1,21 @@
+.container{
+    background-color: #d2d2d2;
+
+    width: 900px;
+    height: 100%;
+
+    margin-top: 40px;
+    
+    border-radius: 50px;
+    border-top: 10px solid #800909;
+    border-bottom: 10px solid #800909;
+}
+
+.margem-pagina{
+    height: 500px;
+}
+
+.imagem-inicio{
+    margin: 20px 30px 10px 30px;
+    padding: 20px 20px 20px 20px;
+}
