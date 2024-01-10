@@ -47,7 +47,17 @@
     .navbar-nav{
         margin: -53px 96px 0px 160px;
     }
-    .nav-item{
-        
+}
+
+@media (max-width:430px) and (orientation: portrait) {
+    .container{
+        width: 415px !important;
+    }
+    button{
+        margin-top: 40px;
+        margin-right: 15px;
+    }
+    .navbar-nav{
+        margin: -54px 110px 0px 22px;
     }
 }

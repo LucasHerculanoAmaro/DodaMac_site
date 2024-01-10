@@ -30,3 +30,9 @@ body{
     background: var(--body); /*#FD801*/
     border-radius: 15px;
 }
+
+@media (max-width: 430px) and (orientation: portrait) {
+    body{
+        overflow-x: hidden;
+    }
+}
