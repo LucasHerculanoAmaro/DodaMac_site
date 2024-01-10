@@ -70,3 +70,13 @@
 li{
     margin: 10px 30px 10px 30px;
 }
+
+@media (max-width: 991px) and (orientation: landscape) {
+    .margem-pagina{
+        width: 700px;
+    }
+
+    p{
+        text-align: center;
+    }
+}
