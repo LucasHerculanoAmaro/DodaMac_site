@@ -6,14 +6,14 @@
 
     margin-top: 10px;
     
-    border-radius: 50px;
+    border-radius: 10px;
     border-top: 10px solid #800909;
     border-bottom: 10px solid #800909;
 }
 
 .margem-pagina{
-    width: 910px;
-    height: 540px;
+    width: 100%;
+    height: 100%;
     overflow-y: scroll;
 }
 
@@ -22,9 +22,15 @@
     padding: 0px 20px 20px 20px;
 }
 
-.margem-carossel{
-    margin-top: 20px;
-    margin-bottom: 80px;
+.primeira-imagem {
+    border-radius: 60px;
+    width: 400px;
+}
+
+.imagens-card{
+    margin: 0;
+    padding: 10px;
+    display: flex;
 }
 
 .card{
@@ -40,7 +46,7 @@
 .texto-apresentacao{
     color: #800909;
     font-size: 20px;
-    margin-top: 30px;
+    margin: 30px 30px 30px 30px;
 }
 
 .mapa{
