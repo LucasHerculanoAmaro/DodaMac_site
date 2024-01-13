@@ -25,28 +25,43 @@
 .primeira-imagem {
     border-radius: 60px;
     width: 400px;
+    box-shadow: 5px 5px 10px;
 }
 
-.imagens-card{
-    margin: 0;
+.div-card{
+    margin: 0px 0px 0px 30px;
     padding: 10px;
     display: flex;
+    justify-content: center;
+    text-align: start;
+    align-items: end;
 }
 
 .card{
+    color: #800909;
     --bs-card-bg: color: ##d2d2d2;
     width: 272px;
     height: 300px;
+    box-shadow: 5px 5px 10px;
+    width: 18rem;
+    margin-bottom: 20px;
+    margin-left: 20px;
 }
 
-.imagem-lavagem-manual{
-    width: 270px !important;
+.imagens-card{
+    width: 100% !important;
 }
 
 .texto-apresentacao{
     color: #800909;
     font-size: 20px;
     margin: 30px 30px 30px 30px;
+}
+
+.texto-mapa{
+    color: #800909; 
+    font-size: 20px;
+    margin: 0px 45px 0px 45px;
 }
 
 .mapa{
@@ -58,23 +73,21 @@
 }
 
 .borda-mapa{
+    color: #800909;
     border-radius: 40px;
     border-top: 10px solid #800909;
     border-bottom: 10px solid #800909;
+    box-shadow: 10px 10px 20px;
+    width: 90%;
 }
 
-.contato{
-    text-align: center;
-}
-
-.lista-contatos{
-    list-style: none;
-    display: inline-flex;
-    text-align: center;
-}
-
-li{
-    margin: 10px 30px 10px 30px;
+@media screen and (max-width: 768px){
+    .div-card{
+        display: grid;
+        justify-content: center !important;
+        align-items: center !important;
+        align-content: center !important;
+    }
 }
 
 /*
